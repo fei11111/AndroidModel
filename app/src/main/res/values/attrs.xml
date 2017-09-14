@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PartHeadView">
+        <attr name="title" format="string"></attr>
+        <attr name="desc" format="string"></attr>
+        <attr name="leftIcon" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="AppHeadView">
+        <attr name="leftVisible" format="integer">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+        </attr>
+        <attr name="leftStyle" format="enum">
+            <enum name="text" value="0" />
+            <enum name="image" value="2" />
+        </attr>
+        <attr name="leftText" format="string"></attr>
+        <attr name="leftDrawable" format="reference"></attr>
+        <attr name="leftBackground" format="reference"></attr>
+        <attr name="leftPadding" format="dimension"></attr>
+        <attr name="rightVisible" format="integer">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+        </attr>
+        <attr name="rightStyle" format="enum">
+            <enum name="text" value="0" />
+            <enum name="image" value="2" />
+        </attr>
+        <attr name="rightText" format="string"></attr>
+        <attr name="rightDrawable" format="reference"></attr>
+        <attr name="rightBackground" format="reference"></attr>
+        <attr name="rightPadding" format="dimension"></attr>
+        <attr name="middleStyle" format="enum">
+            <enum name="text" value="0" />
+            <enum name="search" value="1" />
+        </attr>
+        <attr name="middleText" format="string"></attr>
+        <attr name="middleSearchHint" format="string"></attr>
+    </declare-styleable>
+    <declare-styleable name="ScrollerNumberPickerView">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension" />
+        <attr name="noEmpty" format="boolean" />
+        <attr name="isEnable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" format="dimension" />
+        <attr name="type">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
